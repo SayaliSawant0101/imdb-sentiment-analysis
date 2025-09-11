@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Data & models
+data/
+models/
+*.joblib
+*.pt
+*.bin
+
+# OS
+.DS_Store
