@@ -65,7 +65,6 @@ def predict_and_explain(text: str, top_k: int = 8):
 
 
 # --- LSTM/GRU: imports ---
-# --- LSTM/GRU: imports ---
 import json, torch, torch.nn as nn
 from torchtext.data.utils import get_tokenizer
 
@@ -131,7 +130,7 @@ def lstm_predict(text: str):
         label = "Positive ✅" if prob_pos >= 0.5 else "Negative ❌"
         return label, round(prob_pos, 4)
     except Exception as e:
-        print("LSTM error:", repr(e))  # see VS Code terminal for details
+        print("LSTM error:", repr(e))  
         return f"Error: {e.__class__.__name__}", 0.0
 
 
