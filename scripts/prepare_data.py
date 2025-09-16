@@ -17,7 +17,6 @@ import argparse
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-# ⬇️⬇️ EDIT THIS to your actual ACL IMDB dataset root
 DEFAULT_IMDB_ROOT = Path("/Users/sayalisawant/Downloads/aclImdb")
 
 def load_split_dir(split_dir: Path) -> pd.DataFrame:
