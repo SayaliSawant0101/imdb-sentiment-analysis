@@ -1,7 +1,7 @@
 # scripts/check_dataset.py
 from pathlib import Path
 
-IMDB_ROOT = Path("/Users/sayalisawant/Downloads/aclImdb")  # e.g., "/Users/yourname/Downloads/aclImdb"
+IMDB_ROOT = Path("/Users/sayalisawant/Downloads/aclImdb") 
 
 def count_txt(p: Path) -> int:
     return len(list(p.glob("*.txt"))) if p.exists() else 0
