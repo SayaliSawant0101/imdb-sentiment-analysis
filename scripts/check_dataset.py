@@ -1,8 +1,6 @@
 # scripts/check_dataset.py
 from pathlib import Path
 
-# ⬇️ CHANGE THIS to your actual path for the ACL IMDB dataset root
-# It should contain folders: train/pos, train/neg, train/unsup, test/pos, test/neg
 IMDB_ROOT = Path("/Users/sayalisawant/Downloads/aclImdb")  # e.g., "/Users/yourname/Downloads/aclImdb"
 
 def count_txt(p: Path) -> int:
