@@ -1,5 +1,3 @@
-# IMDB Sentiment Analysis (Baseline • LSTM/GRU • DistilBERT)
-
 # 🎬 IMDB Sentiment Analysis (Baseline • LSTM/GRU • DistilBERT)
 
 This project explores multiple approaches to sentiment analysis on the IMDB reviews dataset:  
